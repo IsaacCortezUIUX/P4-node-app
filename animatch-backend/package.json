@@ -1,0 +1,38 @@
+{
+  "name": "animatch-backend",
+  "version": "1.0.0",
+  "description": "A backend for AniMatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "anime",
+    "match",
+    "backend"
+  ],
+  "author": "Robert Isaac Ebita Cortez",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "nodemailer": "^6.9.15",
+    "socket.io": "^4.8.0",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.6"
+  }
+}
